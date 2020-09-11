@@ -30,7 +30,7 @@ int sumDigits(int i)
 		exp++;
 	}
 
-	int tens = pow(10, exp);
+	int tens = (int)pow(10, exp);
 	int remainder = i - (base * tens);
 	int firstDigit = i / tens;
 
